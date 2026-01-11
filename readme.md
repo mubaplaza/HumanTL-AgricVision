@@ -1,4 +1,4 @@
-# 🌾 HumanTL-AgriVision
+# 🌾 HumanTL-AgricVision
 
 HumanTL-AgricVision is a deep learning–based crop classification system that leverages **Human Transfer Learning (HumanTL)** and **Convolutional Neural Networks (CNNs)** to accurately classify crop images.  
 The project uses a pretrained **ResNet18** model fine-tuned for agricultural image classification and includes a **Streamlit web application** for real-time prediction.
@@ -25,18 +25,6 @@ The project uses a pretrained **ResNet18** model fine-tuned for agricultural ima
 - Matplotlib
 
 ---
-
-## 📂 Project Structure
-HumanTL-AgriVision/
-├── crop_classifier.py # Streamlit application
-├── train_model.py # Training script
-├── crop_classifier_model.pth # Trained PyTorch model
-├── dataset/
-│ ├── train/
-│ ├── val/
-│ └── test/
-├── requirements.txt
-└── README.md
 
 
 ## Running the Streamlit App
